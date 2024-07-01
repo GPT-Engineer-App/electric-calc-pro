@@ -14,21 +14,21 @@ const Index = () => {
   return (
     <div className="space-y-10">
       <section className="text-center space-y-4">
-        <h1 className="text-4xl font-bold">Welcome to Elektro Kalkulatoren</h1>
-        <p className="text-lg">Your trusted partner in electrical calculations</p>
+        <h1 className="text-5xl font-bold">Welcome to Elektro Kalkulatoren</h1>
+        <p className="text-xl">Your trusted partner in electrical calculations</p>
       </section>
 
       <section className="space-y-4">
-        <h2 className="text-3xl font-semibold">About Us</h2>
-        <p>
+        <h2 className="text-4xl font-semibold">About Us</h2>
+        <p className="text-lg">
           Elektro Kalkulatoren is dedicated to providing top-notch electrical calculation services. 
           Our team of experts ensures precision and reliability in every project.
         </p>
       </section>
 
       <section className="space-y-4">
-        <h2 className="text-3xl font-semibold">Our Services</h2>
-        <ul className="list-disc list-inside">
+        <h2 className="text-4xl font-semibold">Our Services</h2>
+        <ul className="list-disc list-inside text-lg">
           <li>Electrical Load Calculations</li>
           <li>Short Circuit Analysis</li>
           <li>Power Factor Correction</li>
@@ -37,7 +37,7 @@ const Index = () => {
       </section>
 
       <section className="space-y-4">
-        <h2 className="text-3xl font-semibold">Contact Us</h2>
+        <h2 className="text-4xl font-semibold">Contact Us</h2>
         <Card>
           <CardHeader>
             <CardTitle>Contact Form</CardTitle>

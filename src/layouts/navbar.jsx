@@ -24,6 +24,9 @@ const Layout = () => {
       <main className="flex-grow p-4 overflow-auto">
         <Outlet />
       </main>
+      <footer className="bg-gray-800 text-white p-4 text-center">
+        <p>&copy; 2023 Elektro Kalkulatoren. All rights reserved.</p>
+      </footer>
     </div>
   );
 };
